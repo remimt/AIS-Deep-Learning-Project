@@ -1,22 +1,13 @@
-
-# --- Ignorer les fichiers temporaires et caches ---
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
 *.pyo
 *.pyd
-*.swp
+*.log
 .DS_Store
 .env
 .venv
-*.log
 
-# --- Ignorer tout le contenu de data mais garder le dossier ---
+# Ignore tout le contenu de data, mais garde le dossier
 data/*
 !data/.gitkeep
-
-# Secrets
-.env
-*.env
-*.secret
-token.txt
